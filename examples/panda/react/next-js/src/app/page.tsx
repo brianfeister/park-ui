@@ -3,10 +3,12 @@ import { Button } from '~/components/ui/button'
 import * as RadioButtonGroup from '~/components/ui/radio-button-group'
 import * as Slider from '~/components/ui/slider'
 import * as Tabs from '~/components/ui/tabs'
+import * as DatePicker from '~/components/ui/date-picker'
 
 export default function Home() {
   return (
     <Container py={{ base: '12', md: '16' }} maxW="7xl">
+      <DatePicker />
       <Tabs.Root defaultValue="button">
         <Tabs.List>
           <Tabs.Trigger value="button">Button</Tabs.Trigger>
