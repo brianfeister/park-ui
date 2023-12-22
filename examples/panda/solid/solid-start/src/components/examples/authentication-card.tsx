@@ -1,8 +1,8 @@
+import { Divider, HStack, Stack, styled } from 'styled-system/jsx'
 import { Button } from '~/components/ui/button'
 import { Card } from '~/components/ui/card'
 import { Input } from '~/components/ui/input'
 import { Label } from '~/components/ui/label'
-import { Divider, HStack, Stack, styled } from '../../../styled-system/jsx'
 
 export const AuthenticationCard = () => {
   return (
